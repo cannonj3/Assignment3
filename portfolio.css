@@ -1,0 +1,98 @@
+section {
+  display: flex;
+}
+
+aside {
+
+ flex: 4;
+
+}
+
+article {
+
+ flex: 1;
+
+}
+
+nav .menu {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  background-color: #4C99FF;
+
+}
+
+nav li {
+
+  float: left;
+
+}
+
+nav li a {
+
+  display: block;
+  padding: 8px;
+  height: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+}
+
+nav li a:hover {
+
+background-color: #0057CC;
+
+}
+
+nav .active {
+
+  background-color: #C6E5FF;
+  color: #00367F;
+
+}
+
+h1 {
+ 
+  background-color: #00367F;
+  color: lightgray;
+  text-indent: 5%;
+  font-size: 300%;
+  margin-top: 10px;
+	
+}
+
+p {
+
+  font-size: 200%;
+  margin-left: 10px;
+  margin-right: 0px;
+
+}
+
+.list {
+
+  font-size: 200%;
+
+}
+
+#eaglepic {
+
+  float: right;
+  width: 750px;
+
+}
+
+#name {
+
+  font-style: italic;
+
+}
+
+body {
+
+  text-align: left;
+}
+
